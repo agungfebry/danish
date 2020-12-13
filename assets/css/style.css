@@ -387,4 +387,26 @@ section {
   height: 200px;
 }
 
+.wedo .boxIcon {
+  height: 50px;
+  width: 50px;
+  background-color: #ffc322;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
+.wedo .content {
+  margin-top: 15px;
+}
+.wedo .content h5 {
+  color: #fff;
+  font-weight: 700;
+  margin-top: 20px;
+}
+.wedo .content p {
+  margin-top: 20px;
+}
+
 /*# sourceMappingURL=style.css.map */

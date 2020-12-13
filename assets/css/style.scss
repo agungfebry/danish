@@ -400,15 +400,46 @@
         object-position: top;
       }
     }
-    a{
+
+    a {
       text-decoration: none;
       color: $greyC;
-      &:hover{
+
+      &:hover {
         color: $yellow;
       }
     }
   }
-  .card-body{
+
+  .card-body {
     height: 200px;
+  }
+}
+
+// wedo
+.wedo {
+  .boxIcon {
+    height: 50px;
+    width: 50px;
+    background-color: $yellow;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+  }
+
+  .content {
+    margin-top: 15px;
+
+    h5 {
+      color: #fff;
+      font-weight: 700;
+      margin-top: 20px;
+    }
+
+    p {
+      margin-top: 20px;
+    }
   }
 }
