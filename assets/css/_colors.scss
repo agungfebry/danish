@@ -1,0 +1,37 @@
+$yellow: #ffc322;
+$darkCustom: #252931;
+$greyC: #8d929c;
+
+.c-yellow {
+  color: $yellow;
+}
+
+.bg-yellow {
+  background-color: $yellow;
+}
+
+.c-dark {
+  color: $darkCustom;
+}
+
+.bg-darkC {
+  background-color: $darkCustom;
+}
+
+.c-greyC {
+  color: $greyC;
+}
+
+.bg-greyC {
+  background-color: $greyC;
+}
+
+.outline-yellow {
+  border: 1px solid $yellow;
+  color: $yellow;
+
+  &:hover {
+    background-color: $yellow;
+    color: #fff;
+  }
+}
